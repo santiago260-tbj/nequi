@@ -1,0 +1,100 @@
+No files exist.  I need to create the necessary files for the webpage.  I'll create the files and then ask the user if they are pleased with the plan.
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre productos y servicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="nequi-1.jpg" alt="Tu Negui">
+            <h3>Tu Negui</h3>
+            <p>¿Necesitas una cuenta? Conoce las opciones que Nequi tiene para ti.</p>
+            <button>Quiero ver más</button>
+        </div>
+        <div class="card">
+            <img src="nequi-2.jpg" alt="Tarjeta Negui">
+            <h3>Tarjeta Negui</h3>
+            <p>Una sola tarjeta débito en tu celular y en tu billetera. Tarjeta física y digital.</p>
+            <button>Conoce más</button>
+        </div>
+        <div class="card">
+            <img src="nequi-3.jpg" alt="Préstamo Propulsor">
+            <h3>Préstamo Propulsor</h3>
+            <p>Con este préstamo, recibe la plata de una en tu Negui y págalo a 36 meses.</p>
+            <button>Conócelo</button>
+        </div>
+        <div class="card">
+            <img src="nequi-4.jpg" alt="Préstamo Salva">
+            <h3>Préstamo Salva</h3>
+            <p>Creamos este préstamo la mano al instante.</p>
+            <button>Conócelo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+```CSS
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 24%; /* Adjust width for better layout */
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #333;
+}
+
+.card p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff4d6e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc334f;
+}
+```
+
+```javascript
+/* script.js */
+// Add JavaScript functionality here if needed.
+```
